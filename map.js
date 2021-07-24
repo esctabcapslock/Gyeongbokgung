@@ -50,7 +50,7 @@ class Map_view{
                 // v=1이면 축소, v=-1이먄 확대
                 // 배울 과다방지.
                 if (this.mapimg.L+v<=0) return;
-                if (this.mapimg.L+v>=7) return;
+                if (this.mapimg.L+v>=9) return;
 
                 console.log('[scrool fn], v,x,y=',v,x,y, 'L=',this.mapimg.L)
                 //this.mouseend(); // 확실하게 종료시키기.
