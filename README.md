@@ -1,12 +1,12 @@
-# 북궐도형 뷰어
+# [북궐도형 뷰어](https://esctabcapslock.github.io/Gyeongbokgung/)
 
-## 바로보기
+## >> [바로 이용하기(클릭)](https://esctabcapslock.github.io/Gyeongbokgung/)
 
 ## 북궐도형이란?
 ![북궐도형 [출처](https://commons.wikimedia.org/wiki/File:도면_사적_제117호_경복궁_광화문_및_기타권역_복원정비계획_기술용역_(도면)_북궐도형.jpg)](doc/img.jpg)
 재 가공된 북궐도형 [출처](https://commons.wikimedia.org/wiki/File:도면_사적_제117호_경복궁_광화문_및_기타권역_복원정비계획_기술용역_(도면)_북궐도형.jpg)
 
-    〈북궐도형〉(北闕圖形)은 경복궁과 경복궁의 후원을 배치도 형식으로 표현한 일종의 도면이다
+    〈북궐도형〉(北闕圖形)은 경복궁과 경 복궁의 후원을 배치도 형식으로 표현한 일종의 도면이다. from '위키피디아 북궐도형 문서'
 
 ## 만든 것
 
