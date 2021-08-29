@@ -121,7 +121,7 @@ class Map_view{
         this.dom.map_out.addEventListener('mousemove', this.mousemove)
         this.dom.map_out.addEventListener('mouseup', this.mouseleave)
         this.dom.map_out.addEventListener('mouseleave', this.mouseleave)
-        this.dom.map_out.addEventListener('wheel', this.scroll)
+        this.dom.map_out.addEventListener('wheel', this.scroll, { passive: false })
         this.dom.body.addEventListener('wheel',()=>{}) // 알수없는이유 edge에서 생긴 문제.  
         this.dom.body.addEventListener('keydown', this.keydown)
         
@@ -174,6 +174,9 @@ class Map_view{
         //console.log('[mouseend]');
     }
     scroll(e){
+        e.preventDefault();
+        e.returnValue=false;
+
         let date = new Date()
         //console.log('스ㅡ롤',e.deltaY)
         if(!this.manage.flag.scrol_start){ // 시작할 때,,
